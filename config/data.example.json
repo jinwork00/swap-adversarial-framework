@@ -1,0 +1,40 @@
+{
+  "data_list": {
+    "train": {
+      "class_0": [
+        "subject_01/class_0.npy",
+        "subject_02/class_0.npy"
+      ],
+      "class_1": [
+        "subject_01/class_1.npy",
+        "subject_02/class_1.npy"
+      ]
+    },
+    "test": {
+      "class_0": [
+        "subject_03/class_0.npy"
+      ],
+      "class_1": [
+        "subject_03/class_1.npy"
+      ]
+    }
+  },
+  "domain_list": {
+    "train": {
+      "subject_01": [
+        "subject_01/class_0.npy",
+        "subject_01/class_1.npy"
+      ],
+      "subject_02": [
+        "subject_02/class_0.npy",
+        "subject_02/class_1.npy"
+      ]
+    },
+    "test": {
+      "subject_03": [
+        "subject_03/class_0.npy",
+        "subject_03/class_1.npy"
+      ]
+    }
+  }
+}
